@@ -33,6 +33,7 @@
         <div class="swiper-slide"> <img src="img/pic.jpg"> </div>
         <div class="swiper-slide"> <img src="img/pic1.jpg"> </div>
         <div class="swiper-slide"> <img src="img/pic.jpg"> </div>
+        <div class="swiper-slide"> <img src="img/pic1.jpg"> </div>
       </div>
            <!-- 分页器 -->
     <div class="swiper-pagination swiper-pagination-white"></div>
@@ -66,8 +67,8 @@
         <section class="section3">
                 <div class="section3-box">
                   <div class="section3-tab"> 
-                   <ul id="tab">  
-                      <li>新闻</li>
+                    <ul id="tab">  
+                      <li class="active">新闻</li>
                       <li>社会</li>
                       <li>军事</li>
                     </ul> 
@@ -198,7 +199,7 @@
         prevButton: '.swiper-button-prev',
         autoplayDisableOnInteraction : false,
         spaceBetween: 30,
-        autoplay:99999
+        autoplay:2500
     });
   $('.arrow-left').on('click', function(e){
     e.preventDefault()
