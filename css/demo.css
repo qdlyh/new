@@ -180,12 +180,12 @@
     
               @media screen and (min-width:320px) and ( max-width:736px){
                html{
-                font-size:50px;
+                font-size:30px;
               }
         }
               @media screen and (min-width:737px) and ( max-width:1280px){
                html{
-                font-size:65px;
+                font-size:45px;
               }
         }
               @media screen and (min-width:1281px){
